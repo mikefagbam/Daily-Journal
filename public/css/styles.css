@@ -1,0 +1,95 @@
+.container-fluid {
+    padding: 2% 10%;
+}
+#header {
+    background-color: #F9F3F3;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.navbar-brand, .nav-link {
+    color: #000;
+}
+.navbar-brand:hover {
+    color: #000;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4rem;
+}
+.nav-link:hover {
+    color: #8E7F7F;
+}
+
+#posts {
+    padding-top: 2%;
+}
+.post {
+    padding-bottom: 20px;
+}
+.post-title {
+    display: inline-block;
+}
+.link-form {
+    display: inline-block;
+}
+.link-form-delete {
+    display: inline-block;
+    margin-left: 10px;
+}
+.btn-link {
+    border: none;
+    outline: none;
+    background: none;
+}
+.post-text {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.edit-icon {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.trash-icon {
+    color: #000;
+}
+
+/* Compose Page  */
+.post-info {
+    padding-top: 1%;
+}
+.label-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.textarea-input {
+    margin-bottom: 20px;
+}
+.submit-btn {
+    padding: 1% 4%;
+}
+
+footer {
+    background-color: #F9F3F3;
+    text-align: center;
+}
+.footer-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}

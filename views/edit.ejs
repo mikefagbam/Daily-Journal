@@ -1,0 +1,25 @@
+<%- include('partials/header'); -%>
+
+    <div class="container-fluid">
+        <h1>Edit Post</h1>
+
+        <div class="post-info">
+            <form action="/update" method="post">
+                <label class="form-label label-header" for="title">Title</label>
+                <input class="form-control form-control-lg <%= invalidClass %>" type="text" name="title" id="title" value="<%= title %>" aria-describedby="<%= ariaDescribe %>" autocomplete="off" required>
+                <!-- If the invalid class is added, this will render. -->
+                <div class="invalid-feedback" id="invalidFeedback">
+                    Post title already exists.
+                </div>
+                <input type="hidden" name="old_title" value ="<%= old_title %>">
+                
+                <label class="form-label label-header" for="post-text">Post</label>
+                <textarea class="form-control textarea-input" name="text" id="post-text" rows="5" required><%= text %></textarea>
+
+                <button class="btn btn-primary btn-lg submit-btn" type="submit" name="id" value="<%= id %>">Update</button>
+            </form>
+        </div>
+
+    </div>
+
+<%- include('partials/footer'); -%>
